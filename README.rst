@@ -2,7 +2,7 @@
 Textual Entailment for Effective Triple Validation in Object Prediction
 ===============================
 
-|License| |PyPI pyversions|
+|PyPI pyversions|
 
 
 Software code for the paper Textual Entailment for Effective Triple Validation in Object Prediction.
@@ -311,8 +311,6 @@ How to cite
 To cite this research please use the following: `TBD`
 
 
-.. |License| image:: https://img.shields.io/badge/License-ISC-blue.svg
-   :target: http://perso.crans.org/besson/LICENSE.html
 .. |PyPI pyversions| image:: https://badgen.net/pypi/python/black
    :target: https://www.python.org/
 
