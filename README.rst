@@ -62,7 +62,7 @@ Now we can run the question answering baseline using a DeBERTa large model fine-
 
 .. code:: bash
 
-   python lm_kbc/modeling/zero_shot_qa.py --model deepset/deberta-v3-large-squad2 --contexts_path data/processed/dev/contexts/contexts.json --calculate_qa_threshold --contexts_train_path data/processed/train/contexts/contexts_train.json  --input_path_dev_2 data/processed/train/train.jsonl --input_path ./data/raw/lm-kbc/dataset/data/dev.jsonl --output_path qa_baseline.jsonl
+   python lm_kbc/modeling/zero_shot_qa.py --model deepset/deberta-v3-large-squad2 --contexts_path contexts.json --calculate_qa_threshold --contexts_train_path data/processed/train/contexts/contexts_train.json  --input_path_dev_2 data/processed/train/train.jsonl --input_path ./data/raw/lm-kbc/dataset/data/dev.jsonl --output_path qa_baseline.jsonl
 
 **Relation extraction baseline**
 
@@ -70,7 +70,7 @@ We can run the relation extraction baseline using a REBEL large with:
 
 .. code:: bash
 
-   python lm_kbc/modeling/zero_shot_rebel.py --model Babelscape/rebel-large --input_path data/raw/lm-kbc/dataset/data/dev.jsonl --contexts_path data/processed/dev/contexts/contexts.json --output_path rebel_baseline.jsonl
+   python lm_kbc/modeling/zero_shot_rebel.py --model Babelscape/rebel-large --input_path data/raw/lm-kbc/dataset/data/dev.jsonl --contexts_path contexts.json --output_path rebel_baseline.jsonl
 
 **SATORI**
 
