@@ -14,7 +14,7 @@ The whole project is handled with ``make``, go to a terminal an issue:
 
 .. code:: bash
 
-   git clone hhttps://github.com/satori2023/Textual-Entailment-for-Effective-Triple-Validation-in-Object-Prediction.git
+   git clone https://github.com/satori2023/Textual-Entailment-for-Effective-Triple-Validation-in-Object-Prediction.git
    cd Textual-Entailment-for-Effective-Triple-Validation-in-Object-Prediction
    make setup
    conda activate lm_kbc
