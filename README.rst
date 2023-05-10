@@ -39,7 +39,7 @@ We can run the language model baseline using a BERT large with:
 
 .. code:: bash
 
-   python lm_kbc/modeling/zero_shot_entailment.py --is_baseline --candidates_generation from_lm --lm_candidates bert-large-cased --filter_before --calculate_lm_threshold --input_path_dev_2 data/processed/train/train.jsonl --input_path ./data/raw/lm-kbc/dataset/data/dev.jsonl  --output_path lm_baseline.jsonl
+   python lm_kbc/modeling/zero_shot_entailment.py --is_baseline --candidates_generation from_lm --lm_candidates bert-large-cased --filter_before --calculate_lm_threshold --input_path_dev_2 data/raw/lm-kbc/dataset/data/train.jsonl --input_path ./data/raw/lm-kbc/dataset/data/dev.jsonl  --output_path lm_baseline.jsonl
 
 **Question answering baseline**
 
